@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.box{
+    width: 100%;
+    height: 54px;
+    background-color: #262626;
+    position: fixed;
+    position: relative;
+   
+    
+}
+.btn{
+background-color: #6f9a37;
+height: 35px;
+width: 85px;
+color: white;
+position: absolute;
+right: 15px;
+top: 10px;
+}
+.box img{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    
+}
+.fixed{
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+.box1{
+    width: 100%;
+    height: 120px;
+    background-image: url(./image/basliq.jpg);
+    background-size: 100% 100%;
+    /* position: fixed;  */
+    position: relative;
+    /* box-shadow:0px 0px 0px 10px rgba(0, 0, 0, 0.445); */
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3), 0 12px 20px 0 rgba(0, 0, 0, 0.2);
+    
+
+}
+.box1 img{
+  position: absolute;
+  left: 600px;
+  /* position: fixed; */
+}
+/* 
+ .li1{
+    color: white;
+  /* margin: 20px 90px; */
+  /* display: inline-block;
+  position: absolute;
+  left: 280px;
+  top: 50px;
+   */
+
+/* }
+.li2{
+    color: white; */
+    /* margin: 50px 100px; */
+    /* display: inline-block;
+}  */
+/* .li1 li{
+    color: white;
+    display: inline-block; */
+     /* margin: 50px 60px;  */
+     /* width: 60%; */
+    /* font-size: 20px;
+} */ 
+.h{
+color: #ef9e37;
+font-size: 20px;
+position: absolute;
+top: 50px;
+left:250px;
+}
+.a{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left:400px;
+
+}
+.e{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    right:430px;
+}
+.p{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    right:280px;
+}
+.box2{
+    width: 100%;
+    height: 900px;
+    background-image: url(./image/bggg.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    padding-top: 80px 0px;
+    z-index: 1;
+}
+.box2::before{
+    content: "";
+    position: absolute;
+    left:0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #232d4bd3;
+    z-index: 0;
+}
+.box2.txt{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+
+}
+.w{
+    color: white;
+position: absolute;
+font-size: 17px;
+top: 300px;
+left: 570px;
+}
+.w1{
+color: white;
+font-size: 50px;
+font-weight: 700;
+text-align: center;
+position: absolute;
+top: 350px;
+left: 320px;
+right: 250px;
+/* margin-top: 100px; */
+}
+.btn2{
+    width: 120px;
+    height: 50px;
+    font-weight: 400;
+     background-color: #569CE8;
+     border-color: transparent;
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 610px;
+    z-index: 999;
+    transition: 0.5s;
+}
+.btn2:hover{
+background-color: #ef9e37;
+transform: skew(15deg);
+}
+.ibox{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 640px;
+    z-index: 3;
+}
+.ibox img{
+    width: 270px;
+    height: 180px;
+    z-index: 999;
+}
+.box3{
+    width: 100%;
+    height: 3000px;
+    background-color: #20273A;
+}
+.logos{
+    padding: 30px 80px;
+}
+.tbox{
+margin: 10px 80px;
+display: flex;
+justify-content: space-evenly;
+}
+.hi{
+    color: #ef9e37;
+    font-size: 18px;
+    margin: 15px 0px;
+}
+.b{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 15px 0px;
+}
+.l{
+color: white;
+font-size: 18px;
+margin: 15px 0px;
+}
+.tbox img{
+    width: 640px;
+    height: 420px;
+    
+}
+.txts{
+    display: flex;
+    flex-direction: column;
+  
+}
+.bg{
+    width: 100%;
+    height: 550px;
+    background-image: url(./image/bgcomp.jpg);
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bg::before{
+    content: '';
+     width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 5, 27, 0.753);
+    z-index: 0;
+}
+.tvg{
+display: flex;
+justify-content: center;
+z-index: 999;
+}
+.v{
+    color: #ef9e37;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    left: 650px;
+    top: 230px;
+}
+.g{
+color: white;
+font-size: 50px;
+font-weight: 700;
+text-align: center;
+position: absolute;
+left: 230px;
+right: 230px;
+}
+.txtt{
+margin: 80px 170px;
+position: relative;
+}
+.o{
+    color: #ef9e37;
+    font-size: 18px;
+    margin: 15px 0px;
+}
+.m{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 15px 0px;
+}
+.btn3{
+    width: 120px;
+    height: 50px;
+    font-weight: 400;
+     background-color: #569CE8;
+     border-color: transparent;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    transition: 0.5s;
+
+}
+.btn3:hover{
+background-color: #ef9e37;
+transform: skew(15deg);
+}
+.imgbox img{
+    height: 350px;
+    width: 350px;
+    padding: 10px;
+    position: relative;
+    z-index: 10;
+}
+.imgbox img::before{
+    content: "";
+    height: 350px;
+    width: 350px; 
+    background-color: rgba(0, 0, 0, 0.349);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    transition: 0.5s;
+    z-index: 11;
+} 
+.imgbox img:hover::before{
+
+    background-color: rgba(0, 0, 0, 0.349);
+    /* height: 350px;
+    width: 350px; */
+    bottom: 350px;
+    right: 350px;
+    /* z-index: 12;  */
+}
+.imgbox{
+    display: flex;
+ padding: 10px 130px;
+}
+.ini{
+width: 680px;
+padding-right: 40px;
+padding-left: 0px;
+
+}
+.in{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px ;
+   padding-left: 0px;
+}
+.lloo{
+   padding-left: 160px;
+}
+.footer{
+width: 100%;
+height: 400px;
+background-color: #202A45;
+position: relative;
+}
+.img1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+
+}
+.img2{
+position: absolute;
+top: 80px;
+right:150px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 210px;
+    right: 160px;
+}
+.form input{
+width: 290px;
+height: 40px;
+
+}
+.btn4{
+    width: 290px;
+    height: 40px;
+    background-color: #569CE8;
+    border: transparent;
+    position: absolute;
+    top: 60px;
+}
+.btn4:hover{
+    background-color: #ef9e37;
+}
